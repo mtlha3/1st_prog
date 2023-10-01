@@ -1,0 +1,479 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+}
+
+#container header a {
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+
+#container header a i {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#second {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#second a {
+  text-decoration: none;
+
+}
+
+.image_container {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+#textonimage {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Center the text both horizontally and vertically */
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+
+#textonimage a {
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+#img_container #iphone {
+  color: white;
+  font-weight: bold;
+  font-size: 230%;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#img_container #textonimage #first {
+  color: skyblue;
+  text-decoration: none;
+  line-height: 4;
+  margin-left: 10px;
+  font-weight: lighter;
+  margin-right: 10px;
+
+}
+
+#secondimg #textimagesecond #second {
+  color: blue;
+  text-decoration: none;
+  line-height: 3;
+  margin-left: 10px;
+  font-weight: lighter;
+  margin-right: 10px;
+  margin-top: -10px;
+
+}
+
+#textimagesecond {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Center the text both horizontally and vertically */
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#secondimg #ip {
+  color: black;
+  font-weight: bold;
+  font-size: 60px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#textimagesecond a {
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+#third {
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+#fourth {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
+#textimagethird {
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Center the text both horizontally and vertically */
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#textimagethird a {
+  color: white;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#image_wrapper {
+  position: relative;
+}
+
+#text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#image_wrapper #text-overlay #mac {
+  color: black;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#text-overlay a {
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+#image_wrapper #text-overlay #shop {
+  color: blue;
+  text-decoration: none;
+  font-weight: lighter;
+
+}
+
+#text-over {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#image_wrapper #text-over #air {
+  color: black;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
+#imp {
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+#image_wrapper #text-over #buy {
+  color: blue;
+  text-decoration: none;
+  line-height: 2;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#sixsev {
+  display: flex;
+  justify-content: space-between;
+}
+
+#text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#image_wrapper #text #vision {
+  color: black;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+
+}
+
+#text #six {
+  line-height: 2;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+#text #lm {
+  color: blue;
+  text-decoration: none;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 3;
+}
+
+#sev {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#image_wrapper #sev #wch {
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+#image_wrapper #sev #sreight {
+  text-decoration: none;
+  color: red;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+#image_wrapper #sev #leap {
+
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  line-height: 3;
+}
+
+#image_wrapper #sev #seven {
+  color: skyblue;
+  text-decoration: none;
+  font-weight: lighter;
+  margin-right: 10px;
+  margin-left: 15px;
+  line-height: 1;
+
+}
+
+#eignin {
+  display: flex;
+  justify-content: space-between;
+}
+
+#eight {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#image_wrapper #eight #pro {
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 50;
+}
+
+#image_wrapper #eight #m2 {
+  color: white;
+  text-decoration: none;
+  font-size: 20;
+  line-height: 1;
+  font-weight: lighter;
+}
+
+#image_wrapper #eight #eig {
+  color: skyblue;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 3;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+#nine {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#image_wrapper #nine #card {
+  color: black;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50;
+}
+
+#image_wrapper #nine #cash {
+  color: black;
+  text-decoration: none;
+  font-size: 20;
+  font-weight: lighter;
+}
+
+#image_wrapper #nine #nin {
+  color: rgb(57, 184, 234);
+  text-decoration: none;
+  margin-left: 10;
+  margin-right: 15;
+  line-height: 2;
+}
+
+#fourth {
+  max-width: 1300px;
+  background-color: white;
+  margin-left: 230px;
+  margin-right: 300px;
+}
+
+#third {
+  vertical-align: top;
+  max-width: 1300px;
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 300px;
+}
+
+#third a {
+  text-decoration: none;
+}
+
+#fourth a {
+  text-decoration: none;
+}
+
+#f_elements {
+  text-align: center;
+}
+
+#f_elements p {
+  display: inline;
+  /* Display p elements inline (horizontally) */
+  margin: 0;
+  /* Optional: Remove any default margin to avoid spacing issues */
+  padding: 5px;
+  /* Optional: Add some padding to create spacing between the paragraphs */
+}
+#row{
+  margin-left: 90px;
+}
+#row .footer-column {
+  color: #424245;
+  float: left;
+   margin: 0 -130px;
+  margin-left: 150px;
+}
+
+
+
+#row:after {
+  content: "";
+  display: table;
+  margin: 0 -60px;
+  clear: both;
+}
+
+h3 {
+  color: #424245;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+ul {
+  font-size: 18px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#sub-footer {
+  max-width: 700px;
+  /* Optional: Set a maximum width for the div to control its size */
+  font: 30px;
+  margin: 0 auto;
+  /* This will center the div horizontally */
+}
+
+
+#f_elements p {
+  height: 16px;
+  width: 90px;
+  padding: 0px 10px 0px 0px;
+
+}
+
+#f_elements p {
+  color: #6E6E73;
+  display: inline;
+  margin-right: 0px;
+  justify-content: space-between;
+}
+
+#US {
+  margin-left: 100px;
+}
+
+#sub-footer #atag {
+  text-decoration: none;
+  color: #0066cc;
+}
